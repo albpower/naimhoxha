@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width,
+        height=device-height, target-densitydpi=medium-dpi" />
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<title>Naim Hoxha</title>
+    
+    <!-- CSS LIDHJET -->
+<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/stili.css"/>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    
+    <!-- JS LIDHJET  -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/myscript.js"></script>
+<!-- <script type="text/javascript" src="phonegap.js"></script> -->
+</head>
+
+<body style="font-family:Roboto">
+
+ <!-- PLaylist -->
+<div data-role="page" id="home" data-theme="a"  >
+<!-- Header -->
+<div data-role="header" data-id="ap_header" style="background-color:#fafafc;border-top:6px solid #2f4c73">
+<h1 style="color:#444;text-shadow: none;font-family: Dosis;"> Naim Hoxha - Audio </h1>
+</div>
+<!-- content -->
+<div data-role="none" id="playlista">
+    
+</div>
+<!-- footer -->
+<div data-role="footer" data-position="fixed" data-id="ap_footer">
+<!-- footer navbar -->
+    <div data-role="navbar" style="border-bottom:6px solid #2f4c73">
+    	<ul>
+			<li><a href="#biografia" data-icon="info" data-iconpos="top" data-transition="none">Biografia</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+<!-- End Page -->
+
+    
+<!-- Player -->
+<div data-role="page" id="video-player" data-theme="a"  >
+<!-- Header -->
+<div data-role="header" data-id="ap_header" style="background-color:#fafafc;border-top:6px solid #2f4c73">
+<a href="#home" data-icon="back" data-iconpos="notext" data-direction="reverse" data-transition="none"></a><h1 style="color:#444;text-shadow: none;font-family: Dosis;"> Po ndëgjoni Naim Hoxhën </h1>
+</div>
+<!-- content -->
+<div data-role="none">
+    <div id="playeri">
+    
+    </div>
+</div>
+</div>
+<!-- End Page -->
+   
+    
+<!-- Biografia -->
+<div data-role="page" id="biografia" data-theme="a"  >
+<!-- Header -->
+<div data-role="header" data-id="ap_header" style="background-color:#fafafc;border-top:6px solid #2f4c73">
+<a href="#home" data-icon="back" data-iconpos="notext" data-direction="reverse" data-transition="none"></a><h1 style="color:#444;text-shadow: none;font-family: Dosis;"> Biografia </h1>
+</div>
+<!-- content -->
+<div data-role="none">
+    <p><img src="images/naim-hoxha.jpg" style="width: 98%; margin: 0px auto; display: block;border-radius: 20px;"/></p>
+    <div style="padding:5px 5px;text-align:center">
+        Naim Hoxha është i lindur më 25 Janar 1987 në fshatin Bllacë,komuna Suharekës. Që nga viti 2008 fillon punën si moderator në radion islame Radio Pendimi. Puna e medias e ka tërhequr që nga fëmijëria dhe asnjëherë nuk ngopet nga sukseset dhe punën e arritur në këtë lëmi. Ai gjithashtu ka një hobi tjetër interesant, ajo është shkrimi i poezive.. Kjo ide i lindi në mënyrë spontane por duke marrë parasysh së poezitë e tij pëlqehen nga audienca ai tregon se ndihet mjaft i motivuar nga komentet pozitive që ka marr deri më tani dhe ai premton se do të vazhdojë që edhe më tej të sjellë shkrime të reja të tija. Ai ështe i martuar dhe ka një djalë me emrin Rijad. 
+    </div>
+    <div style="text-align:center" class="kontakt-div" >
+        <h3 class="kontakti"> <span>Kontakt:</span></h3>
+        <p style="font-weight:600">Tel:</p>
+        <p>049/283-048 +VIBER </p>
+        <p>044/284-233 </p>
+        <p><span style="font-weight:600">E-mail: </span> <a href="mailto:naim-h21@hotmail.com" data-role="none">naim-h21@hotmail.com</a></p>
+        <p><span style="font-weight:600">FACEBOK:</span> <a href="https://www.facebook.com/NaimHoxh" data-role="none">Naim Hoxha</a></p>
+    </div>
+</div>
+<!-- footer -->
+<div data-role="footer" data-position="fixed" data-id="ap_footer">
+<!-- footer navbar -->
+    <div data-role="navbar" style="border-bottom:6px solid #2f4c73">
+    	<ul>
+			<li><a href="#biografia" data-icon="info" data-iconpos="top" data-transition="none">Biografia</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+<!-- End Page -->
+    
+<script type="text/javascript" src="http://gdata.youtube.com/feeds/users/UCum8pLPYXDDS3wyy4DqDWNQ/uploads?alt=json-in-script&max-results=15&callback=listVideos"></script>
+</body>
+</html>

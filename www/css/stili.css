@@ -1,0 +1,64 @@
+.videoThumb{
+    margin:0px auto;
+    width:100%;
+    border-bottom: solid 3px crimson;
+    display: block;
+}
+
+.videoTitle{
+    margin: 5px auto;
+    text-align: center;
+    font-family: Roboto;
+    //background: #fff;
+    width:100%;
+   
+}
+
+#playlista{
+    margin:5px auto;
+}
+
+#playlist{
+    margin:10px 5px;
+}
+
+.player-title{
+    font-family: Roboto;
+    text-align: center;
+}
+
+.player-description{
+    font-family: Roboto;
+    text-align: center;
+}
+
+.video-player{
+    margin:5px auto;
+    width:95%;
+    height:315px;
+    display: block;
+}
+
+.kontakti{
+    text-align: center;
+    border-bottom: solid 1px #2b7abf;
+}
+
+.kontakti span{
+    background: #2b7abf;
+    color:#fff;
+    text-shadow: none;
+    text-align: center;
+    padding:4px 20px 0px;
+    border-radius: 4px 4px 0 0;
+}
+
+.kontakt-div p{
+    margin:4px;
+}
+
+.kontakt-div a{
+    text-decoration: none;
+    color:inherit;
+    font-weight: normal;
+}
