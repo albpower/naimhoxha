@@ -1,16 +1,16 @@
 function listVideos(data) {
-	//console.log(data);
+	console.log(data);
     var output = '';
-    for (var i=0; i<data.feed.entry.length; i++)
+    for (var i=0; i<data.items.length; i++)
     {
         //titulli
-        var title = data.feed.entry[i].title.$t;
+        var title = data.items[i].snippet.title;
         //pershkrimi
-        var description = data.feed.entry[i].media$group.media$description.$t;
+        var description = data.items[i].snippet.description;
         //thumbnail
-        var thumbnail = data.feed.entry[i].media$group.media$thumbnail[0].url;
+        var thumbnail = data.items[i].snippet.thumbnails.high.url;
         //ID
-        var id = data.feed.entry[i].id.$t.substring(38);
+        var id = data.items[i].snippet.resourceId.videoId;
         
         output += '<div id="playlist">';
         output += '<a href="#video-player" onclick="playVideo(\''+ id + '\',\'' + title + '\', \'' + escape(description) +'\')" style="text-decoration:none; color:#333" data-role="none" data-transition="none">';
